@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 .header-wrap {
     list-style: none;
@@ -164,6 +165,80 @@ padding-top: 32px;
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
+}
+
+
+.standart-ourproject {
+  background: #F6F6F8;
+}
+
+.standarts {
+  height: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 121px;
+}
+
+.standart-title {
+  font-size: 36px;
+  font-weight: 700;
+  width: 424px;
+}
+
+.standart-text {
+  font-size: 16px;
+  width: 489px;
+  margin-top: 60px;
+  margin-bottom: 42px;
+  color: #999;
+}
+
+.standart-link {
+  font-weight: 500;
+  font-size: 16px;
+  /* margin-top: 42px; */
+}
+
+.standart-image {
+  border-radius: 30px;
+  width: 500px;
+  height: 400px;
+}
+
+
+.ourproject {
+  height: 207px;
+  /* border: #000000 1px 0 0 0 solid; */
+
+}
+
+.ourproject-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ourproject-item {
+  width: 104px;
+}
+
+.ourproject-numder {
+  font-size: 36px;
+}
+
+.ourproject-text {
+    color: #999
+}
+
+.ourproject-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ourproject-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .btn:hover {
