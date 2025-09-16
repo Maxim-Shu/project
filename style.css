@@ -104,21 +104,21 @@ padding-top: 32px;
     width: 40px;
     height: 40px;
 }
-.services {
+.about-services {
   text-align: center;
   padding: 60px 20px;
   background: #fff;
   margin-top: -250px;
 }
 
-.services h2 {
+.about-services h2 {
   font-size: 36px;
   margin-bottom: 15px;
   color: #000000;
   font-weight: 700;
 }
 
-.services .subtitle {
+.about-services .subtitle {
   color: #999999;
   max-width: 600px;
   margin: 0 auto 40px;
@@ -158,12 +158,12 @@ padding-top: 32px;
   font-size: 14px;
 }
 
-.btn {
+.card-btn {
   display: inline-block;
   padding: 12px 30px;
   background: #0066ff;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 25px;
   text-decoration: none;
 }
 
@@ -239,6 +239,63 @@ padding-top: 32px;
 .ourproject-icon {
   width: 30px;
   height: 30px;
+}
+
+.services {
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+  padding-top: 100px;
+  position: relative;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serv-title-btn {
+  display: flex;
+  align-items: center;
+  gap: 370px;
+}
+
+.services-title {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  width: 540px;
+}
+
+.services-item img {
+  border-radius: 10px;
+}
+
+.services-list {
+  position: absolute;
+  top: 250px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 30px;
+}
+
+.services-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.services-text span {
+  color: #4985FF;
+}
+
+.services-lorem {
+  width: 350px;
+  margin-top: 30px;
+  color: #999;
+}
+
+.services-item a {
+  margin-top: 47px;
+  font-weight: 500px;
 }
 
 .btn:hover {
