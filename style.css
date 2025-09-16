@@ -298,6 +298,39 @@ padding-top: 32px;
   font-weight: 500px;
 }
 
+.projects {
+  margin-top: 440px;
+  padding-top: 100px;
+  background: #F6F6F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700  ;
+}
+
+.projects p {
+  width: 730px;
+  text-align: center;
+  color: #999;
+  margin-top: 28px;
+}
+
+.projects div {
+  margin-top: 92px;
+  display: flex;
+  gap: 30px;
+}
+
+.projects button {
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
 .btn:hover {
   background: #0050cc;
 }
