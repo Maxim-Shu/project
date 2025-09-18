@@ -7,12 +7,16 @@
 
 
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: "Montserrat", sans-serif;
+}
+.container-fluid {
+  padding: 0;
 }
 .header-wrap {
     list-style: none;
@@ -30,7 +34,7 @@
 }
 
 .main {
-    background-image: url(./img/Rectangle\ \(1\).jpg);
+    background-image: url(./img/Rectangle\ \(2\).jpg);
     height: 1200px;
     background-repeat: no-repeat;
 
@@ -306,6 +310,7 @@ padding-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 130px;
 }
 
 .projects h2 {
@@ -330,6 +335,65 @@ padding-top: 32px;
 .projects button {
   border-radius: 30px;
   margin-top: 50px;
+}
+
+.video {
+  height: 570px;
+  background-image: url(./img/Rectangle\ \(1\).jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.video-title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.video-text {
+  margin-bottom: 270px;
+  color: white;
+}
+
+.video-btn {
+  width: 300px;
+  height: 100px;
+  background: none;
+  border: #fff solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  border-radius: 200px;
+}
+
+.video-container-wrapper {
+  position: absolute;
+  width: 920px;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #000;
+  margin-top: 400px;
+}
+
+.video-container {
+  width: 970px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/Rectangle\ 2\ \(2\).jpg);
+  position: absolute;
+  border: 10px solid transparent;
+  border-radius: 20px;
 }
 
 .btn:hover {
