@@ -396,6 +396,108 @@ padding-top: 32px;
   border-radius: 20px;
 }
 
+.email {
+  margin-top: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 85px 0 85px 0;
+}
+
+.email-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.email-text {
+  margin-top: 20px;
+  color: #999;
+}
+
+.email-input {
+  margin-top: 30px;
+  box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+  border-radius: 25px;
+}
+
+.email-secondtext {
+  margin-top: 35px;
+  font-size: 13px;
+  color: grey;
+}
+
+.footer {
+  background: #f4f4f4;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-list h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-list p,
+.footer-list ul {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: grey;
+  margin-top: 30px;
+}
+
+.footer-list ul li {
+  margin-bottom: 30px;
+}
+
+.footer-list ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer-list ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #777;
+}
+
+.footer-list ul li a::before {
+  content: url(./img/right-arrow.png);
+  margin-right: 4px;
+}
+
+.footer-adress::before{
+  content: url(./img/placeholder.png);
+  margin-right: 4px;
+}
+
+.footer-email::before {
+  content: url(./img/envelope.png);
+  margin-right: 4px;
+}
+
+.footer-number::before {
+  content: url(./img/call.png);
+  margin-right: 4px;
+}
+
 .btn:hover {
   background: #0050cc;
 }
